@@ -22,3 +22,12 @@ services:
       - ./mongodata:/data/db
     ports:
       - ${MONGO_EXT_PORT}:27017
+
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+    links:
+      - frontend
+      - node
+      - emqx
