@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/stylesLP.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>
+    <%= title %>
+  </title>
+</head>
+
+<body>
+
+  <header class="hero">
+    <div class="hero__wave"></div>
+    <nav>
+      <div class="cont nav_container">
+        <a href="index.html">
+          <h4>CERES</h4>
+        </a>
+        <ul class="nav_menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-menu-btn"><i class="uil uil-multiply"></i></ button>
+      </div>
+    </nav>
+    <section class="productive container">
+      <div class="hero__texts">
+        <h1 class="heros__title">Ceres_IoT</h1>
+        <div class="hero__texts">
+          <p class="hero__paragraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum
+            voluptates esse aspernatur tenetur aut eos distinctio nostrum fugiat molestias beatae labore ducimus nihil
+            repudiandae quae numquam ipsa, dolore officiis.</p>
+
+          <p class="hero__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quisquam
+            fugiat ipsam eum assumenda saepe aut deleniti quos distinctio
+          </p>
+          <a href="/RealTimeDashboard" class="hero__cta">
+            Get Started
+          </a>
+
+
+        </div>
+
+      </div>
+      <figure class="hero__img">
+        <img src="images/Graphic_Two Color.png" class="hero__img">
+      </figure>
+    </section>
+    <!-- <section class="hero__main container">
+      <img src="images/Graphic_Two Color.png" class="hero__img">
+
+      <h1 class="hero__title">All your files in one secure location, accessible anywhere.</h1>
+      <p class="hero__paragraph">Fylo stores all your most important files in one secure location. Access them wherever
+        you need, share and collaborate with friends family, and co-workers.</p>
+      <a href="#" class="hero__cta">
+        Get Started
+      </a>
+    </section> -->
+  </header>
+
+  <main class="main">
+    <section class="about container">
+
+      <article class="about__item">
+        <figure class="about__picture">
+          <img src="images/icon-any-file.svg" class="about__img">
+        </figure>
+
+        <h3 class="about__title"> Access your files, anywhere</h3>
+
+        <p class="about__paragraph"> The ability to use a smartphone, tablet, or computer to access your account means
+          your
+          files follow you everywhere.</p>
+      </article>
+
+      <article class="about__item">
+        <figure class="about__picture">
+          <img src="images/icon-security.svg" class="about__img">
+        </figure>
+
+        <h3 class="about__title"> Security you can trust
+        </h3>
+
+        <p class="about__paragraph"> 2-factor authentication and user-controlled encryption are just a couple of the
+          security
+          features we allow to help secure your files.
+        </p>
+      </article>
+
+
+
+
+      <article class="about__item">
+        <figure class="about__picture">
+          <img src="images/icon-collaboration.svg" class="about__img">
+        </figure>
+
+        <h3 class="about__title">Real-time collaboration</h3>
+
+        <p class="about__paragraph">
+          Securely share files and folders with friends, family and colleagues for live collaboration.
+          No email attachments required.</p>
+      </article>
+
+      <article class="about__item">
+        <figure class="about__picture">
+          <img src="images/icon-any-file.svg" class="about__img">
+        </figure>
+
+        <h3 class="about__title"> Store any type of file</h3>
+
+        <p class="about__paragraph"> Whether you're sharing holidays photos or work documents, Fylo has you covered
+          allowing for all
+          file types to be securely stored and shared.</p>
+      </article>
+
+    </section>
+
+    <section class="productive container">
+
+      <figure class="productive__picture">
+        <img src="images/illustration-stay-productive.png" class="productive__img">
+      </figure>
+
+      <div class="productive__texts">
+
+        <h3 class="productive__title"> Stay productive, wherever you are</h3>
+
+        <p class="productive__paragraph"> Never let location be an issue when accessing your files. Fylo has you covered
+          for all of your file
+          storage needs.</p>
+
+        <p class="productive__paragraph">Securely share files and folders with friends, family and colleagues for live
+          collaboration. No email
+          attachments required.</p>
+
+        <a href="#" class="productive__cta">
+          See how Fylo works
+          <img src="images/icon-arrow.svg" class="productive__arrow">
+        </a>
+
+      </div>
+    </section>
+    <section class="card container">
+      <div class="cards ">
+        <div class="imgBx">
+          <img src="images/profile-1.jpg">
+        </div>
+        <div class="content">
+          <div class="details">
+            <h2>Alina Smith <br><span>Senior UX/UI Designerk</span></h2>
+            <ul class="socialmedia">
+              <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="cards ">
+        <div class="imgBx">
+          <img src="images/profile-1.jpg">
+        </div>
+        <div class="content">
+          <div class="details">
+            <h2>Alina Smith <br><span>Senior UX/UI Designerk</span></h2>
+            <ul class="socialmedia">
+              <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="cards ">
+        <div class="imgBx">
+          <img src="images/profile-1.jpg">
+        </div>
+        <div class="content">
+          <div class="details">
+            <h2>Alina Smith <br><span>Senior UX/UI Designerk</span></h2>
+            <ul class="socialmedia">
+              <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="cards ">
+        <div class="imgBx">
+          <img src="images/profile-1.jpg">
+        </div>
+        <div class="content">
+          <div class="details">
+            <h2>Alina Smith <br><span>Senior UX/UI Designerk</span></h2>
+            <ul class="socialmedia">
+              <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="card container">
+      <article class="card__item card__item--first">
+        <p class="card__paragraph"> Fylo has improved our team productivity by an order of magnitude. Since making the
+          switch our team has
+          become a well-oiled collaboration machine.</p>
+
+        <div class="card__profile">
+          <figure class="card__picture">
+            <img src="images/profile-1.jpg" class="card__img">
+          </figure>
+
+          <div class="card__info">
+            <h3 class="card__name">Satish Patel</h3>
+            <p class="card__job">Founder & CEO, Huddle</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card__item ">
+        <p class="card__paragraph"> Fylo has improved our team productivity by an order of magnitude. Since making the
+          switch our team has
+          become a well-oiled collaboration machine.</p>
+
+        <div class="card__profile">
+          <figure class="card__picture">
+            <img src="images/profile-2.jpg" class="card__img">
+          </figure>
+
+          <div class="card__info">
+            <h3 class="card__name">Bruce McKenzie</h3>
+            <p class="card__job">Founder & CEO, Huddle</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card__item ">
+        <p class="card__paragraph"> Fylo has improved our team productivity by an order of magnitude. Since making the
+          switch our team has
+          become a well-oiled collaboration machine.</p>
+
+        <div class="card__profile">
+          <figure class="card__picture">
+            <img src="images/profile-3.jpg" class="card__img">
+          </figure>
+
+          <div class="card__info">
+            <h3 class="card__name">Iva Boyd</h3>
+            <p class="card__job">Founder & CEO, Huddle</p>
+          </div>
+        </div>
+      </article> -->
+
+
+    </section>
+
+    <!-- <section class="join">
+      <div class="join__container container">
+        <h3 class="join__title"> Get early access today
+        </h3>
+        <p class="join__paragraph"> It only takes a minute to sign up and our free starter tier is extremely generous.
+          If you have any
+          questions, our support team would be happy to help you.</p>
+
+        <form class="join__form">
+          <input type="text" placeholder="email@example.com" class="join__input join__input--text">
+          <input type="submit" value="Get Started For Free" class="join__input join__input--submit">
+        </form>
+      </div>
+    </section> -->
+  </main>
+  <footer class="footer ">
+    <section class="footer__container container">
+      <img src="images/logo.svg" class="footer__logo">
+
+      <div class="footer__items">
+        <p class="footer__contact footer__contact--first">
+          <img src="images/icon-location.svg" class="footer__icon">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quidem aperiam quibusdam, veritatis
+          explicabo similique.
+        </p>
+
+
+        <div class="footer__content">
+
+          <p class="footer__contact footer__contact--second">
+            <img src="images/icon-phone.svg" class="footer__icon">
+            +1-543-123-4567
+          </p>
+
+          <div class="footer__location">
+            <p class="footer__contact">
+              <img src="images/icon-email.svg" class="footer__icon">
+              example@fylo.com
+            </p>
+          </div>
+
+        </div>
+
+        <!-- <nav class="footer__nav">
+          <a href="#" class="footer__link">About Us</a>
+          <a href="#" class="footer__link">Jobs</a>
+          <a href="#" class="footer__link">Press</a>
+          <a href="#" class="footer__link">Blog</a>
+        </nav>
+
+        <nav class="footer__nav">
+          <a href="#" class="footer__link">Contact Us</a>
+          <a href="#" class="footer__link">Terms</a>
+          <a href="#" class="footer__link">Privacy</a>
+        </nav> -->
+
+        <div class="footer__social">
+          <a href="#" class="footer__media"><img src="images/fb.svg" class="footer__img"></a>
+          <a href="#" class="footer__media"><img src="images/twitter.svg" class="footer__img"></a>
+          <a href="#" class="footer__media footer__media--last"><img src="images/instagram.svg" class="footer__img"></a>
+        </div>
+      </div>
+
+    </section>
+
+
+  </footer>
+
+  <!-- 
+  
+  
+  
+  
+  
+  
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
