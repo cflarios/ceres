@@ -28,6 +28,4 @@ services:
     ports:
       - "80:80"
     links:
-      - frontend
-      - node
-      - emqx
+      - app
